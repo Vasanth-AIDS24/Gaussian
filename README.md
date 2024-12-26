@@ -8,12 +8,16 @@ To write a program to find the solution of a matrix using Gaussian Elimination.
 2. Anaconda – Python 3.7 Installation / Moodle-Code Runner
 
 ## Algorithm
-1. import numpy as np
-2. give inputs
-3. Forward Elimination
-4. Back Substitution
-5. Output Results
-
+```
+1.Import the numpy module and sys module to use the built-in functions for calculation
+2.Get the size of the matrix from user and create empty matrix and vector
+3.using for loop get elements for matrix and vector
+4.Using another for loop to take each element in the matrix
+5.solve row echelon form
+6.perform back substitution
+7.print the value in two decimal points
+8.End the program
+```
 ## Program:
 ```
 
@@ -43,11 +47,8 @@ for i in range(n):
 ```
 
 ## Output:
-![Screenshot 2024-12-06 130114](https://github.com/user-attachments/assets/bde7a04c-b34c-41d1-a820-bb21c4fbbca2)
-
-![Screenshot 2024-12-06 130203](https://github.com/user-attachments/assets/42a24c34-363b-4fee-86fb-9d08e0f03f21)
-
-
+![alt text](image.png)
+![alt text](image-1.png)
 ## Result:
 Thus the program to find the solution of a matrix using Gaussian Elimination is written and verified using python programming.
 
